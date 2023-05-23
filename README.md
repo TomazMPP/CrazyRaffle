@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-   <img width="300" style="border-radius: 20px" src="/assets/img/landing.png" />
-   <img width="300" style="border-radius: 20px" src="/assets/img/landingresult.png" />
+   <img width="400" style="border-radius: 20px" src="/assets/img/landing.png" />
+   <img width="400" style="border-radius: 20px" src="/assets/img/landingresult.png" />
 </p>
 
 > Small project to practice HTML, CSS and JavaScript.
