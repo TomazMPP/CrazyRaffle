@@ -1,2 +1,1 @@
-# CrazyRaffle
- Web Application that generates random numbers for raffles 
+<h1 align="center"><img src="/assets/img/logo.png" width="200px"></h1>
