@@ -1,6 +1,6 @@
 <h1 align="center"><img src="/assets/img/logoo.png" width="300px"></h1>
 <p align="center">
-<a href="https://what-time-is-6dw6o27vh-tomazmpp.vercel.app" target="_blank">✨ Published version ✨</a>
+<a href="https://tomazmpp.github.io/CrazyRaffle/" target="_blank">✨ Published version ✨</a>
 </p>
 <br>
 
