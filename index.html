@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrazyRaffle</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:wght@100;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <div id="result" class="popup">
+      <div class="popup-content">
+        <h5>The numbers drawn were:</h5>
+        <p id="resultNumbers"></p>
+        <button id="btnClose">Close</button>
+
+      </div>
+    </div>
+    
+
+    <div class="container">
+        <main>
+    <h1>CrazyRaffle</h1>
+    <p>Number Generator for Raffles</p>
+        <img src="/assets/img/raffle.jpg" alt="CrazyRaffle!" >
+    </main>
+        <section>
+        <h3>Insert the amount of numbers you want to draw <br>and from which range</h3>
+        <h4>Range 1</h4>
+        <input type="number" name="rangeStart" id="rangeStart" placeholder="Example: 1">
+        <h4>Range 2</h4>
+        <input type="number" name="rangeEnd" id="rangeEnd" placeholder="Example: 20"> <br>
+        <h4 id="amount">Amount of numbers to be drawn:</h4>
+        <input type="number" name="amountNumbers" id="amountNumbers" placeholder="Example: 5"><br>
+        <button class="button-1" role="button" id="raffleButton" onclick="raffle()">Draw!</button>
+        <h4 id="msg"></h4>
+    </section>
+
+     </div>
+
+     <footer>
+        <a href="https://github.com/TomazMPP"><p id="foot">&copy; TomazMPP</p></a>
+            </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
